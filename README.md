@@ -1,4 +1,3 @@
-
 <div align="center">
 <h2 align="center">
    <img src="./assets/mirage.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> <b>Mirage-1: Augmenting and Updating GUI Agent with 
@@ -30,7 +29,7 @@
 </div>
 
 ## :balloon: Framework
-A: The architecture of Optimus-3, which includes a task router that selects a specific task expert for each query, a ViT for visual encoding, and a MoE LLM for generating responses and low-level actions. Given a long-horizon task, it can generate a feasible plan and then execute the sub-goals sequentially. B: The proposed Multimodal Reasoning-Augmented Reinforcement Learning effectively enhances the agent's performance. C: Performance comparison of Optimus-3 against current task-specific SOTA agents, GPT-4o, and the original backbone Qwen2.5-VL. 
+The Mirage-1 framework comprises a Hierarchical Planner, an Operator, a Decision Reflector, and a Hierarchical Multimodal Skills Module (HMS). To bridge the offline-online domain gap, Skill-Augmented Monte Carlo Tree Search (SA-MCTS) is employed for unseen task exploration, with successful trajectories expanding HMS capabilities. The Hierarchical Planner retrieves Core Skills from HMS and decomposes task goals into sub-goals for Operator execution. The Decision Reflector leverages Execution Skills to assess task execution feasibility.
 <img src="./assets/fig1.png" >
 
 ## :smile_cat: Evaluation results
