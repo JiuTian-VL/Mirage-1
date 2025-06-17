@@ -1,7 +1,7 @@
 <div align="center">
 <h2 align="center">
    <img src="./assets/mirage.png" style="vertical-align: middle; height: 1em; padding: 0 0.2em;"> <b>Mirage-1: Augmenting and Updating GUI Agent with 
-     <br />  Hierarchical Multimodal Skills
+     <br />  Hierarchical Multimodal Skills </b>b>
 </h2>
 <div>
 <a target="_blank" href="https://scholar.google.com/citations?user=KO77A2oAAAAJ&hl=en">Yuquan&#160;Xie</a><sup>1</sup>,
@@ -40,6 +40,18 @@ Table 1: Performance comparison on AndroidWorld, MobileMiniWob++, and AndroidLH.
 ## Conclusion
 In this paper, we propose a Hierarchical Multimodal Skills module (HMS) that addresses the challenge of insufficient prior knowledge in long-horizon task planning. To address the domain gap between offline and online, a Skill-Augmented Monte Carlo Tree Search (SA-MCTS) algorithm is proposed. This algorithm effectively utilizes offline-acquired skills to reduce the action search space during online tree exploration. On top of HMS, we propose multimodal agent Mirage-1. Experimental results demonstrate that Mirage-1 achieves superior performance compared to SOTA GUI agents, particularly in long-horizon tasks.
 
+## :hugs: Citation
+
+If you find this work useful for your research, please kindly cite our paper:
+
+```
+@article{xie2025mirage,
+  title={Mirage-1: Augmenting and Updating GUI Agent with Hierarchical Multimodal Skills},
+  author={Xie, Yuquan and Li, Zaijing and Shao, Rui and Chen, Gongwei and Zhou, Kaiwen and Li, Yinchuan and Jiang, Dongmei and Nie, Liqiang},
+  journal={arXiv preprint arXiv:2506.10387},
+  year={2025}
+}
+```
 
 
 
